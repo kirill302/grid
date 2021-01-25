@@ -245,7 +245,7 @@ body {
   text-shadow: 0 0 2px #000000;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 790px) {
   .search input {
     left: calc(-10px + (-200 - -10) * ((100vw - 320px) / 1120));
   }
