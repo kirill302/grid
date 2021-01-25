@@ -241,9 +241,11 @@ body {
   -webkit-transition: width .2s;
   transition: width .2s;
   border-radius: 10px;
+
+  text-shadow: 0 0 2px #000000;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 767px) {
   .search input {
     left: calc(-10px + (-200 - -10) * ((100vw - 320px) / 1120));
   }
