@@ -186,6 +186,12 @@ body {
   color: rgba(255, 255, 255, 0.8);
 }
 
+@media (max-width: 790px) {
+  .search .search-icon {
+    cursor: default;
+  }
+}
+
 .search .search-icon::after, .search .search-icon::before {
   content: '';
   display: block;
@@ -235,17 +241,16 @@ body {
   padding: 0;
   font-size: 0;
   margin-top: 10px;
+  text-shadow: 0 0 5px #000;
   background: rgba(0, 0, 0, 0.1);
   color: #ffffff;
   width: 0;
   -webkit-transition: width .2s;
   transition: width .2s;
   border-radius: 10px;
-
-  text-shadow: 0 0 2px #000000;
 }
 
-@media (max-width: 790px) {
+@media (max-width: 1440px) {
   .search input {
     left: calc(-10px + (-200 - -10) * ((100vw - 320px) / 1120));
   }
@@ -339,6 +344,12 @@ body {
   font-size: 17px;
 }
 
+@media (max-width: 790px) {
+  .wath-btn__link {
+    cursor: default;
+  }
+}
+
 .wath-btn__link div {
   width: 68px;
   height: 68px;
@@ -420,6 +431,12 @@ body {
   color: #ffffff;
   -webkit-transition: color, font-size .1s, .1s;
   transition: color, font-size .1s, .1s;
+}
+
+@media (max-width: 790px) {
+  .social span {
+    cursor: default;
+  }
 }
 
 .social span:hover {
@@ -546,6 +563,7 @@ body {
   .nav a {
     margin: 0 0 20px 0;
     font-size: 25px;
+    cursor: default;
   }
   .nav.burger-active {
     top: 0;
